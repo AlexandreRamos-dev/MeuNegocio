@@ -1,0 +1,7 @@
+.Rodape {
+    margin-top: 20px;
+    background-color: var(--cor-do-cartao);
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}

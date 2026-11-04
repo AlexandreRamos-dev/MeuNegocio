@@ -1,0 +1,60 @@
+.negocio-form {
+    width: 80%;
+    max-width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #0f1f52;
+    border-radius: 10px;
+}
+
+.grupo-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.negocio-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+}
+
+.negocio-form input,
+.negocio-form select {
+  padding: 8px;
+  border: 1px solid var(--cor-do-cartao);
+  border-radius: 6px;
+}
+
+.grupo-tipo {
+    align-self: center;
+}
+
+.grupo-tipo label {
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.negocio-form button {
+  margin-left: auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--cor-do-botao);
+  color: var(--cor-de-fundo);
+  cursor: pointer;
+  align-self: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.negocio-form button:hover {
+  filter: brightness(0.9);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(15, 31, 82, 0.25);
+}

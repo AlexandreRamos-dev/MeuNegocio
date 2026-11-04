@@ -1,0 +1,27 @@
+.container-da-tabela{
+    max-width: 940px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.lista-de-movimentacoes {
+    width: 100%;
+    max-width: 800px;
+    min-width: 600px;
+    margin: 10px auto;
+    border-collapse: collapse;
+
+}
+
+.lista-de-movimentacoes th {
+    background-color: var(--cor-destaque);
+    color: var(--cor-de-fundo);
+    padding: 12px;
+    text-align: left;
+    border-right: 1px solid var(--cor-de-fundo);
+}
+
+.lista-de-movimentacoes td {
+    font-size: 0.8em;
+    padding: 12px;
+}
