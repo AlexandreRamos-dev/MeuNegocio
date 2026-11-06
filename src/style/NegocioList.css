@@ -25,3 +25,17 @@
     font-size: 0.8em;
     padding: 12px;
 }
+
+.acoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-excluir {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
