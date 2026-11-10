@@ -23,3 +23,13 @@ export function removerMovimentacao(movimentacao) {
 
     localStorage.setItem("movimentacao", JSON.stringify(TodasAsMovimentacoesComUmaDeletada));
 }
+
+export function somandoValoresDeEntrada(valores) {
+    const todasAsMovimentacoes = pegarMovimentacoes()
+    const todasAsMovimentacoesSomadas = todasAsMovimentacoes.filter(
+        (movimentacaoDaVez) => {
+            const condicao = (movimentacaoDaVez.tipo == 'entrada')
+            return movimentacaoDaVez.reduce(movimentacaoDaVez.valor, 0)
+        }
+    )
+}
