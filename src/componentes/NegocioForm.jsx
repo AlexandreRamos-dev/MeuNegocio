@@ -55,7 +55,7 @@ function NegocioForm({aoAdicionar}) {
                         <option value="compras"> Compras </option>
                         <option value="alimentacao"> alimentação </option>
                         <option value="transporte"> Transporte </option>
-                        <option value="educacao"> Educação </option>
+                        <option value="vendas"> vendas </option>
                         <option value="saude"> Saude </option>
                         <option value="lazer"> Lazer </option>
                         <option value="outros"> Outros </option>
